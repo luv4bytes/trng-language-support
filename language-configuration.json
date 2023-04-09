@@ -1,0 +1,16 @@
+{
+    // symbols used as brackets
+    "brackets": [
+        [
+            "lop",
+            "pol"
+        ],
+    ],
+    // symbols that are auto closed when typing
+    "autoClosingPairs": [
+        [
+            "lop",
+            "pol"
+        ]
+    ],
+}

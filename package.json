@@ -1,0 +1,37 @@
+{
+  "name": "trng-language-support",
+  "displayName": "TRNG Language Support",
+  "description": "Language support for the TRNG language",
+  "version": "0.0.1",
+  "repository": {
+    "url": "https://github.com/luv4bytes/trng-language-support"
+  },
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "trng",
+        "aliases": [
+          "trng",
+          "trng"
+        ],
+        "extensions": [
+          "trng"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "trng",
+        "scopeName": "source.trng",
+        "path": "./syntaxes/trng.tmLanguage.json"
+      }
+    ]
+  }
+}
